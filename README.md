@@ -70,18 +70,16 @@ We will use [Eclipse](https://www.eclipse.org/) for our programming assignments 
 |March 10|      Midterm exam | |
 |March 15|      Spring Break (no class) ||
 |March 17|      Spring Break (no class) ||
-|March 15|      Java data structures: `ArrayList` ||
-|March 17|       Java data structures: `HashMap` ||
-|March 22|       Project: A Compleat Shakespearean Search Engine ||
-|March 24|        Spring Boot | Assignment 5 due |
-|March 29|       Spring Boot II ||
-|March 31|      Fully operational search engine ||
-|April 5|      Searching and an intro to complexity analysis ||
-|April 7|      Big-O notation |Assignment 6 due|
-|April 12|      Sorting algorithms ||
-|April 14|      Recursive sorting algorithms ||
-|April 19| Topic |
-|April 21| Topic / Flex for Fox Day |
+|March 22|      Java data structures: `ArrayList` ||
+|March 24|       Java data structures: `HashMap` ||
+|March 29|       Project: A Compleat Shakespearean Search Engine ||
+|March 31|        Spring Boot | Assignment 5 due |
+|April 5|       Spring Boot II ||
+|April 7|      Fully operational search engine ||
+|April 12|      Searching and an intro to complexity analysis ||
+|April 14|      Big-O notation |Assignment 6 due|
+|April 19|      Sorting algorithms ||
+|April 21|      Recursive sorting algorithms ||
 
 
 ### Other Important Dates
