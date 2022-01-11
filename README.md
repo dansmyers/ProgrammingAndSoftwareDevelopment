@@ -39,7 +39,7 @@ At the end of this course, you will be able to:
 
 We will use an online ZyBook covering Java. The text includes built-in problems that you will complete along with the assigned homework projects. In most cases, the questions for each book chapter will be due at the same time as a programming project.
 
-To access the text, create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS121MyersSpring2022. The subscription is $88 and lasts until after the end of the semester.
+To access the text, create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS121MyersSpring2022. The subscription is $58 and lasts until after the end of the semester.
 
 We will use [Eclipse](https://www.eclipse.org/) for our programming assignments and lab activities. Eclipse is an industry standard **integrated development environment** (IDE) for Java.
 
