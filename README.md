@@ -53,8 +53,8 @@ We will use [Eclipse](https://www.eclipse.org/) for our programming assignments 
 |January 11|    Hello, Java! | |
 |January 13|    Variables, types, input with `Scanner` ||
 |January 18|    The `if` statement |  |
-|January 20|    Intro to arrays | Assignment 1 due|
-|January 25|    The `for` loop and looping over arrays ||
+|January 20|    Intro to arrays ||
+|January 25|    The `for` loop and looping over arrays |Assignment 1 and Chapter 1 reading due|
 |January 27|    Two-dimensional arrays ||
 |February 1|    The `while` loop ||
 |February 3|   Writing static methods |Assignment 2 due|
