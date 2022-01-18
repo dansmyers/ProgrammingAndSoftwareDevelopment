@@ -2,6 +2,8 @@
 
 ## Assignment and reading due Tuesday, January 25
 
+## You may work with a partner to complete these programs.
+
 ## Overview and Goals
 
 This is it: the first unit. We're going to focus on two things:
@@ -17,9 +19,11 @@ At the end of the unit, you'll have two things to complete:
 The content for this unit will primarily be review from your previous class, although you will need to get started with Java, which may be new for you.
 
 
-## Deliverables and Quiz
+## Deliverables
 
 Complete the five problems in `Deliverables`. Put each program into its own `.java` file, then put all of your files into a ZIP archive and submit them through the assignment posted to Canvas. I will show you how to add your files to a ZIP in class.
+
+**You may work with a partner to complete these problems**. This is optional: if you want to work alone, that's fine by me. If you do work with a partner, you should each make an independent submission on Canvas, so I have a record of everyone's submissions. Add your partner's name to the top comment of each of your programs.
 
 ## Reading
 
