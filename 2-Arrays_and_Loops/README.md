@@ -1,6 +1,6 @@
 # Arrays and Loops
 
-<img src="https://miro.medium.com/max/1006/1*iJhMo_FJ6ka70UU1t_h1eQ.png" width="50%" />
+<img src="https://miro.medium.com/max/1006/1*iJhMo_FJ6ka70UU1t_h1eQ.png" width="30%" />
 
 ## Assignment and reading due on Thursday, February 3
 
