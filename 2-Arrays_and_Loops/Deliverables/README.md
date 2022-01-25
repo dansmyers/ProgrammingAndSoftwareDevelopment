@@ -121,9 +121,12 @@ public class SubtractionGame {
             System.out.println("It's your turn, Player " + player + ".";
             System.out.println("Take 1, 2, or 3 stones from the pile.");
             
+            
             // TODO: Use nextInt() to get the player's move
             
+            
             // TODO: Reduce the number of stones
+            
             
             // TODO: Check the winning condition
             
@@ -229,25 +232,32 @@ public class MagicSquares {
         System.out.println("Enter a value of n: ");
         int n = input.nextInt();
         
+        
         // n must be odd and positive; if it isn't, quit immediately
+        
 
         // Initialize an n x n array of int
         int[][] square = 
+        
         
         // Start in the top row, center column
         int row = 0;
         int col = n / 2;  // Integer division yields the correct column
         
+        
         // Place the values from 1 to n ^ 2
         for (int i = 1; i <= n * n; i++) {
         
             // Place value i at square[row][col]
+            
         
             // Try to move up and right, wrapping around if you need to
+            
             
             // If that position is occupied, go back to the old location and move down instead
             
         }
+        
         
         // Print the final magic square
         
@@ -294,13 +304,17 @@ public class Treblecross {
     
         // Create a Scanner and get an input value of n
         
+        
         // If n is negative, quit the program immediately
+        
         
         // Create a 1-D array of n char
         char[] board = new char[n];
         
+        
         // Use a variable to keep track of the current player
         int player = 1;
+        
         
         // Main game loop
         boolean playing = true;
@@ -308,13 +322,18 @@ public class Treblecross {
         
             // Print the current board. Tip: use Arrays.toString()
             
+            
             // Ask the current player to choose an open position
+            
             
             // Read the player's move using the Scanner
             
+            
             // If that square is occupied, print an error message then use continue to repeat the loop
             
+            
             // Mark the position with an 'X'
+            
             
             // Check if there is now a line of three on the board
             //
@@ -322,14 +341,15 @@ public class Treblecross {
             //
             // On each iteration, check if positions i, i + 1, and i + 2 are all 'X'.
             
+            
             // If a group of three exists, declare the current player the winner and set playing = false
+            
                         
             // In all other cases, switch to the other player
             // Here's a clever way of switching using the mod operator
             // 1 % 2 + 1 ---> 2
             // 2 % 2 + 1 ---> 1
-            player = (player % 2) + 1;
-            
+            player = (player % 2) + 1;   
             
         }
     
