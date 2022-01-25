@@ -46,7 +46,7 @@ Tips:
 
 <img src="https://static-numista.com/forum/images/56febeae99f8b.jpg" width="50%" />
 
-Dogecoin, the favored cryptocurrency of shiba inus everywhere, currently trades for about $.003 per DOGE.
+Dogecoin, the favored cryptocurrency of shiba inus everywhere, currently trades for about $.16 per DOGE.
 
 Write a program that can take a value in dollars as input and output the equivalent number of dogecoins. Print your answers to two decimal places.
 

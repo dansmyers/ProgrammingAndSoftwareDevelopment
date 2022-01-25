@@ -1,7 +1,8 @@
 #  Intro to Java
 
-## Assignment and reading due Thursday, January 28
-## First quiz on February 4
+## Assignment and reading due Tuesday, January 25
+
+## You may work with a partner to complete these programs.
 
 ## Overview and Goals
 
@@ -10,25 +11,23 @@ This is it: the first unit. We're going to focus on two things:
 1. Review the important elements of structured programming using Java.
 2. Develop an appreciation for the ways that Java and Python are alike...and yet different.
 
-At the end of the unit, you'll have four things to complete:
+At the end of the unit, you'll have two things to complete:
 
 1. The deliverables described in this project.
-2. An individual quiz.
-3. Reading from the ZyBook.
+2. Reading from the ZyBook.
 
 The content for this unit will primarily be review from your previous class, although you will need to get started with Java, which may be new for you.
 
 
-## Deliverables and Quiz
+## Deliverables
 
 Complete the five problems in `Deliverables`. Put each program into its own `.java` file, then put all of your files into a ZIP archive and submit them through the assignment posted to Canvas. I will show you how to add your files to a ZIP in class.
 
-The quiz will be done **during class** on February 4. It is **open everything**: You can use any resources that you bring with you and find helpful.
-
+**You may work with a partner to complete these problems**. This is optional: if you want to work alone, that's fine by me. If you do work with a partner, you should each make an independent submission on Canvas, so I have a record of everyone's submissions. Add your partner's name to the top comment of each of your programs.
 
 ## Reading
 
-Complete the **participation questions** for Chapters 2 and 3 of the ZyBook. You don't need to complete the challenge questions or any sections that are marked as optional.
+Complete the **participation questions** for Chapters 2 and 3 of the ZyBook. You **don't** need to complete the challenge questions or any sections that are marked as optional.
 
 ## Java Features
 
