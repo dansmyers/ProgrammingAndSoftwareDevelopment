@@ -1,6 +1,8 @@
 # Arrays and Loops
 
-## Assignment due on Thursday, February 11
+## Assignment and reading due on Thursday, February 3
+
+## You may work with a partner on this assignment.
 
 ## Overview and Goals
 This unit will introduce important features of Java that we'll be using for the rest of the class:
