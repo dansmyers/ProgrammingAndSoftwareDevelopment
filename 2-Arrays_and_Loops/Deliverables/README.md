@@ -20,7 +20,7 @@ Tip:
 
 ## If They're the Super Mario Bros., Does That Mean His Name is Mario Mario?
 
-<img src="https://i.ytimg.com/vi/_lSfM7F-_2E/hqdefault.jpg" width="50%" />
+<img src="https://i.ytimg.com/vi/_lSfM7F-_2E/hqdefault.jpg" width="30%" />
 
 At the end of each level in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
 
