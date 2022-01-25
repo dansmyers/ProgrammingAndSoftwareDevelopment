@@ -2,6 +2,8 @@
 
 ## I Would Like to Say a Few Words
 
+<img src="https://lastfm.freetls.fastly.net/i/u/500x500/e2caa7f3d3c0799f866ba76d55ec4228.jpg" width="30%" />
+
 Write a program that uses a `while` loop to prompt the user to enter a `String`. Keep prompting until the user types one of the following words:
 
 ```
