@@ -54,7 +54,7 @@ similar operations.
 
 - The third problem (the Subtraction Game) is more complex, but doesn't require any new features.
 
-- The last two problems take a little longer to explain but aren't that challenging. Make sure you understand the magic square algorithm and try it out by hand if you need to
+- The last two problems take a little longer to explain; part of the challenge is understanding the problem before you code it. Make sure you understand the magic square algorithm and try it out by hand if you need to
 before you attempt to code it. Most of the work in the last problem (Treblecross) is writing the conditions that check for the winning condition. Completing the Subtraction
 Game first will help you with Treblecross.
 
