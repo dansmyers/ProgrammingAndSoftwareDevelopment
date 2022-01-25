@@ -22,7 +22,7 @@ Tip:
 
 <img src="https://i.ytimg.com/vi/_lSfM7F-_2E/hqdefault.jpg" width="30%" />
 
-At the end of each level in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
+At the end of most levels in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
 
 ```
      ##
