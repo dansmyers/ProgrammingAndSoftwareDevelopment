@@ -72,29 +72,21 @@ Tips:
 Here's a mathematical strategy game.
 
 Beginning with a pile of 21 stones, players alternate removing stones until none are left. On her turn, a player may take 1, 2,
-or 3 stones. The player who takes the last stone is the winner.
-
-This game is known by a few different names, inluding the Subtraction Game and Nim. 
-A version was played on an episode of *Survivor*, where they called it Thai 21.
+or 3 stones. The player who takes the last stone is the winner. This game is known by a few different names, inluding *the Subtraction Game* and *Nim*. 
+It was featured as a challenge on an episode of *Survivor: Thailand*, where it was called *Thai 21*.
 
 There are lots of variations:
 
 - Changing the number of stones or the numbers that may be removed on each turn.
 - Using multiple piles of stones. In classic Nim, a player may take as many stones as he wants, but from only one pile at a time.
-- Playing a *misère* game (French for "destitution"), where the player who takes the last stone *loses*.
+- Playing a *misère* game (French for "destitution"), where the player who takes the last stone **loses**.
 
 Write a program that implements the Thai 21 version of the Subtraction Game. Use the skeleton below to get started.
 
-This program shows a useful strategy for game programs.
+This program shows a useful strategy for game programs. You might think that the best way to handle a two-player game is to put both player's turns inside the the loop: on each iteration,
+have player 1 make a move, then have player 2 make a move. This works, but it makes ending the loop tricky, because you don't want to do player 2's turn if player 1 wins. 
 
-- You might think that the best way to handle a two-player game is to put both player's turns inside the the loop: on each iteration,
-have player 1 make a move, then have player 2 make a move.
-
-- This works, but it makes ending the loop tricky, because you don't want to do player 2's turn if player 1 wins.
-
-- Here, we're going to use the loop to play just one turn. A variable keeps track of which player's turn it is.
-
-- If the current player *doesn't* win, switch to the other player for the next pass through the loop.
+Here, we're going to use the loop to play just one turn. The `player` variable keeps track of which player's turn it is. The end of the loop switches to the other player.
 
 ```
 /**
@@ -117,8 +109,11 @@ public class SubtractionGame {
         int stones = 21;
         int player = 1;
         
-        // Initialize a Scanner to read from the terminal
         
+        // TODO: Initialize a Scanner to read from the terminal
+        
+        
+        // Main game loop
         while (playing) {
         
             System.out.println();
@@ -126,12 +121,13 @@ public class SubtractionGame {
             System.out.println("It's your turn, Player " + player + ".";
             System.out.println("Take 1, 2, or 3 stones from the pile.");
             
-            // Use nextInt() to get the player's move
+            // TODO: Use nextInt() to get the player's move
             
-            // Reduce the number of stones
+            // TODO: Reduce the number of stones
             
-            // Check the winning condition
-            // If there are 0 stones, print a winning message and set playing = false;
+            // TODO: Check the winning condition
+            
+            // If stones == 0, print a winning message and set playing = false;
             
             // else, switch to the other player
         
