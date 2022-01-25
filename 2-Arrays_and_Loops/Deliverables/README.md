@@ -138,6 +138,23 @@ public class SubtractionGame {
 }
 ```
 
+### Specifications
+
+To get full credit for this program, you must do the following:
+
+- Prompt the user to enter a number of stones.
+
+- Correctly read the input.
+
+- Verify that the input value is 1, 2, or 3 and doesn't exceed the number of remaining stones. If the user enters a bad value, print an error message, then use `continue` to return to the top of the loop.
+
+- Update the number of stones.
+
+- Correctly end the game with a winning message when the number of stones reaches 0.
+
+- If the game has not ended yet, switch to the other player.
+
+
 ## Magic Squares
 
 ### Description
@@ -239,7 +256,6 @@ public class MagicSquares {
 
 ```
 
-
 ### Specifications
 
 To get full credit for this program, you code must do the following:
@@ -249,7 +265,8 @@ To get full credit for this program, you code must do the following:
 - Successfully construct the squares with inputs of *n* = 3 and *n* = 5.
 - Print the final square with reasonable formatting before exiting.
 
-## Treblecross
+
+##  Challenge Problem: Treblecross
 
 **Treblecross** is a one-dimensional tic-tac-toe variant. Both players take turns marking X's on a line of *n* squares. The object is to be the first player
 to complete a grouping of three X's:
@@ -280,35 +297,35 @@ public class Treblecross {
         // If n is negative, quit the program immediately
         
         // Create a 1-D array of n char
+        char[] board = new char[n];
         
         // Use a variable to keep track of the current player
         int player = 1;
         
-        // Use a while loop to play until the game is complete
+        // Main game loop
         boolean playing = true;
         while (playing) {
         
-            // Print the current board
+            // Print the current board. Tip: use Arrays.toString()
             
             // Ask the current player to choose an open position
             
             // Read the player's move using the Scanner
             
-            // If that square is occupied, use a continue statement to repeat the loop
+            // If that square is occupied, print an error message then use continue to repeat the loop
             
-            // Mark the position
+            // Mark the position with an 'X'
             
-            // Check if the new move resulted in three in a line
+            // Check if there is now a line of three on the board
             //
-            // There are three ways this can happen:
-            //     the new X is the left most of a group of three
-            //     the new X is in the middle of a group of three
-            //     the new X is on the right of a group of three
+            // Tip: use a for loop
+            //
+            // On each iteration, check if positions i, i + 1, and i + 2 are all 'X'.
             
-            // If so, declare the current player the winner and set playing = false
+            // If a group of three exists, declare the current player the winner and set playing = false
                         
             // In all other cases, switch to the other player
-            // Here's a fancy way of switching using the mod operation
+            // Here's a clever way of switching using the mod operator
             // 1 % 2 + 1 ---> 2
             // 2 % 2 + 1 ---> 1
             player = (player % 2) + 1;
