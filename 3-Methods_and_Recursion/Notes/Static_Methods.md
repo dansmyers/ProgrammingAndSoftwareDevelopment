@@ -1,7 +1,7 @@
 Rough notes from class on the `static` keyword in Java
 ==========================
 
-When you declare a method to be static, you can call it using just its name
+When you declare a method to be static, you can call it using only its name and any required input arguments.
 
 ```
 double a = areaOfCircle(10.0);
