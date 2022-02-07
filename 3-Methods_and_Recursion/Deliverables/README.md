@@ -1,21 +1,24 @@
 # Methods and Recursion &ndash; Deliverables
 
+## You can work with a partner to complete these problems.
+
 ## Recursion Practice
 
 <img src="https://i.imgur.com/Myvtk0G.jpg" width="50%" />
 
 The following three problems ask you to implement non-trivial recursive methods. 
 
-**You must use `Recursion.java` in this directoy as a starting point for your solutions**: It contains stubs for the static methods you need to implement. 
-New for this project! **Automated testing**. The  `main` method of `Recursion.java` contains a series of tests that will evaluate your static methods
-for different inputs and report if they are producing the correct outputs.
+**You must use `Recursion.java` in this directoy as a starting point for your solutions**. Fill in the provided method stubs with your recursive solutions.
 
-Each recursive method is worth one point. You'll get credit for each problem if you pass all of its tests.
+New for this project! **Automated testing**. The  `main` method of `Recursion.java` contains a series of tests that will evaluate your static methods
+for different inputs and report if they are producing the correct outputs. You'll get credit for each problem if you pass all of its tests.
 
 Tips:
 
+- You must `Recursion.java` in this directory as your starting code.
 - Don't edit the `main` method.
-- **DO NOT USE ANY LOOPS**. Your solutions must be recursive! Using a loop for any of the problems is an automatic unsatisfactory.
+- Your recursive methods must pass the automated tests coded in `main` to receive credit.
+- Your solutions must be recursive! Using a loop for any of the problems is an automatic unsatisfactory.
 - Don't create any global or class variables outside of a method. All of your variables must be **local**.
 
 
@@ -109,6 +112,8 @@ The negative side of the sequence has the same values as the positive side, but 
 Complete the method `fib(n)` which finds the `n`th Fibonacci number. Your method has to work for both positive and negative values of
 `n`.
 
+Tip: You can test if `n` is positive or negative and choose the appropriate recursive case.
+
 ### McCarthy's 91 Function
 
 Mathematician John McCarthy and his colleagues defined the following function:
@@ -130,9 +135,7 @@ M(103) = 93
 and so forth...
 ```
 
-Implement the function `mccarthy(n)` to calculate McCarthy's 91 function.
-
-(No, you can't just make it return 91. You have to do the evaluation recursively.)
+Implement the function `mccarthy(n)` to calculate McCarthy's 91 function. (No, you can't just make it return 91. You have to do the evaluation recursively.)
 
 
 ## Notakto
@@ -142,11 +145,7 @@ Implement the function `mccarthy(n)` to calculate McCarthy's 91 function.
 ### Description
 
 Notakto is a Tic-Tac-Toe variant where there are only X's. Both players take turns marking X's on the board and the first player who 
-completes a line of X's **loses**.
-
-Implement a Java program to play Notakto using `Notakto.java`as your starting point.
-
-This project will let you practice:
+completes a line of X's **loses**. Implement a Java program to play Notakto using `Notakto.java`as your starting point. This project will let you practice:
 
 - Creating, accessing, and iterating over two-dimensional arrays
 - Writing and using static methods
@@ -155,7 +154,9 @@ This project will let you practice:
 
 ### Specifications
 
-This entire project is worth **six points**. You will earn one point for each of the following criteria.
+Use the code in `Notakto.java` as your starting point.
+
+Implement the following features to receive credit:
 
 - Formatted printout of the game board, using the format shown below.
 - Reading user input from the console; use a `while` loop to retry until the user inputs a valid number.
@@ -230,9 +231,7 @@ public static void print(boolean[][] board) {
 
 #### Valid Input
 
-You need to read the user's move as a number 1-9. If the user enters an invalid number or tries to choose a square that is already occupied, use a `while` loop to force
-another choice. Here is an example. The `covertToRow` and `convertToCol` methods take the user's choice 1-9 and turn it into the corresponding row or column number, as
-discussed below.
+You need to read the user's move as a number 1-9. If the user enters an invalid number or tries to choose a square that is already occupied, use a `while` loop to force another choice. Here is an example. The `covertToRow` and `convertToCol` methods take the user's choice 1-9 and turn it into the corresponding row or column number, as discussed below.
 
 ```
 boolean readingInput = true;
