@@ -21,15 +21,15 @@ public class Notakto {
 	}
 
 
-  /**
-   * Convert a position 1-9 into the corresponding row number
-   *
-   * @param  position   the user's choice, which must be 1-9
-   * @return            the row associated with that position
-   */
-  public static int convertToRow(int position) {
+	/**
+	* Convert a position 1-9 into the corresponding row number
+	*
+	* @param  position   the user's choice, which must be 1-9
+	* @return            the row associated with that position
+	*/
+	public static int convertToRow(int position) {
 
-  }
+	}
 
 	
 	/**
@@ -41,6 +41,19 @@ public class Notakto {
 	 */
 	public static boolean checkRows(boolean[][] board) {
 		
+		// Loop over all of the rows
+		for (int r = 0; r < board.length; r++) {
+			
+		    // return true if row r contains three true values
+		    if (board[r][0] && board[r][1] && board[r][2]) {
+			    return true;
+		    }
+		}
+		
+		// If we check all three rows but never return true, then return false
+		//
+		// This is the case where no row meets the winning condition
+		return false;
 	}
 	
   
@@ -72,25 +85,27 @@ public class Notakto {
 			print(board);
 			
 			// Read the player's move -- use a loop to force valid input
-      boolean readingInput = true;
-      int position;
+			//
+			// The variable position will store a number 1-9 corresponding to the place the user picks
+		        boolean readingInput = true;
+		        int position;
       
-      while (readingInput) {
+		        while (readingInput) {
 
-      }
+		        }
 			
 			// Update the board
-      int row = convertToRow(position);
-      int col = convertToCol(position);
-      board[row][col] = true; 
+		        int row = convertToRow(position);
+		        int col = convertToCol(position);
+		        board[row][col] = true; 
     	
 			// Check for three X's in any row, column, or diagonal
-      if (checkRows[board] || checkCols(board} || checkDiags(board)) {
-          // Print losing message and end the game loop
+                        if (checkRows[board] || checkCols(board} || checkDiags(board)) {
+                            // Print losing message and end the game loop
           
-      } else {
-          // Switch to the other player
-      }
+                        } else {
+                            // Switch to the other player
+                        }
 			
 		}	
 		
