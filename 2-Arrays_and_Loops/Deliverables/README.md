@@ -2,6 +2,8 @@
 
 ## I Would Like to Say a Few Words
 
+<img src="https://img.ifunny.co/images/c0a91be0159716612bffdd06abe7a13fd8071846bf69e7f70ba4c8d0ebb9f495_1.jpg" width="50%" />
+
 Write a program that uses a `while` loop to prompt the user to enter a `String`. Keep prompting until the user types one of the following words:
 
 ```
@@ -20,7 +22,9 @@ Tip:
 
 ## If They're the Super Mario Bros., Does That Mean His Name is Mario Mario?
 
-At the end of each level in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
+<img src="https://i.ytimg.com/vi/_lSfM7F-_2E/hqdefault.jpg" width="30%" />
+
+At the end of most levels in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
 
 ```
      ##
@@ -68,29 +72,21 @@ Tips:
 Here's a mathematical strategy game.
 
 Beginning with a pile of 21 stones, players alternate removing stones until none are left. On her turn, a player may take 1, 2,
-or 3 stones. The player who takes the last stone is the winner.
-
-This game is known by a few different names, inluding the Subtraction Game and Nim. 
-A version was played on an episode of *Survivor*, where they called it Thai 21.
+or 3 stones. The player who takes the last stone is the winner. This game is known by a few different names, inluding *the Subtraction Game* and *Nim*. 
+It was featured as a challenge on an episode of *Survivor: Thailand*, where it was called *Thai 21*.
 
 There are lots of variations:
 
 - Changing the number of stones or the numbers that may be removed on each turn.
 - Using multiple piles of stones. In classic Nim, a player may take as many stones as he wants, but from only one pile at a time.
-- Playing a *misère* game (French for "destitution"), where the player who takes the last stone *loses*.
+- Playing a *misère* game (French for "destitution"), where the player who takes the last stone **loses**.
 
 Write a program that implements the Thai 21 version of the Subtraction Game. Use the skeleton below to get started.
 
-This program shows a useful strategy for game programs.
+This program shows a useful strategy for game programs. You might think that the best way to handle a two-player game is to put both player's turns inside the the loop: on each iteration,
+have player 1 make a move, then have player 2 make a move. This works, but it makes ending the loop tricky, because you don't want to do player 2's turn if player 1 wins. 
 
-- You might think that the best way to handle a two-player game is to put both player's turns inside the the loop: on each iteration,
-have player 1 make a move, then have player 2 make a move.
-
-- This works, but it makes ending the loop tricky, because you don't want to do player 2's turn if player 1 wins.
-
-- Here, we're going to use the loop to play just one turn. A variable keeps track of which player's turn it is.
-
-- If the current player *doesn't* win, switch to the other player for the next pass through the loop.
+Here, we're going to use the loop to play just one turn. The `player` variable keeps track of which player's turn it is. The end of the loop switches to the other player.
 
 ```
 /**
@@ -113,8 +109,11 @@ public class SubtractionGame {
         int stones = 21;
         int player = 1;
         
-        // Initialize a Scanner to read from the terminal
         
+        // TODO: Initialize a Scanner to read from the terminal
+        
+        
+        // Main game loop
         while (playing) {
         
             System.out.println();
@@ -122,12 +121,16 @@ public class SubtractionGame {
             System.out.println("It's your turn, Player " + player + ".";
             System.out.println("Take 1, 2, or 3 stones from the pile.");
             
-            // Use nextInt() to get the player's move
             
-            // Reduce the number of stones
+            // TODO: Use nextInt() to get the player's move
             
-            // Check the winning condition
-            // If there are 0 stones, print a winning message and set playing = false;
+            
+            // TODO: Reduce the number of stones
+            
+            
+            // TODO: Check the winning condition
+            
+            // If stones == 0, print a winning message and set playing = false;
             
             // else, switch to the other player
         
@@ -137,6 +140,23 @@ public class SubtractionGame {
 
 }
 ```
+
+### Specifications
+
+To get full credit for this program, you must do the following:
+
+- Prompt the user to enter a number of stones.
+
+- Correctly read the input.
+
+- Verify that the input value is 1, 2, or 3 and doesn't exceed the number of remaining stones. If the user enters a bad value, print an error message, then use `continue` to return to the top of the loop.
+
+- Update the number of stones.
+
+- Correctly end the game with a winning message when the number of stones reaches 0.
+
+- If the game has not ended yet, switch to the other player.
+
 
 ## Magic Squares
 
@@ -212,25 +232,32 @@ public class MagicSquares {
         System.out.println("Enter a value of n: ");
         int n = input.nextInt();
         
+        
         // n must be odd and positive; if it isn't, quit immediately
+        
 
         // Initialize an n x n array of int
         int[][] square = 
+        
         
         // Start in the top row, center column
         int row = 0;
         int col = n / 2;  // Integer division yields the correct column
         
+        
         // Place the values from 1 to n ^ 2
         for (int i = 1; i <= n * n; i++) {
         
             // Place value i at square[row][col]
+            
         
             // Try to move up and right, wrapping around if you need to
+            
             
             // If that position is occupied, go back to the old location and move down instead
             
         }
+        
         
         // Print the final magic square
         
@@ -238,7 +265,6 @@ public class MagicSquares {
 }
 
 ```
-
 
 ### Specifications
 
@@ -249,7 +275,8 @@ To get full credit for this program, you code must do the following:
 - Successfully construct the squares with inputs of *n* = 3 and *n* = 5.
 - Print the final square with reasonable formatting before exiting.
 
-## Treblecross
+
+##  Challenge Problem: Treblecross
 
 **Treblecross** is a one-dimensional tic-tac-toe variant. Both players take turns marking X's on a line of *n* squares. The object is to be the first player
 to complete a grouping of three X's:
@@ -277,42 +304,52 @@ public class Treblecross {
     
         // Create a Scanner and get an input value of n
         
+        
         // If n is negative, quit the program immediately
         
+        
         // Create a 1-D array of n char
+        char[] board = new char[n];
+        
         
         // Use a variable to keep track of the current player
         int player = 1;
         
-        // Use a while loop to play until the game is complete
+        
+        // Main game loop
         boolean playing = true;
         while (playing) {
         
-            // Print the current board
+            // Print the current board. Tip: use Arrays.toString()
+            
             
             // Ask the current player to choose an open position
             
+            
             // Read the player's move using the Scanner
             
-            // If that square is occupied, use a continue statement to repeat the loop
             
-            // Mark the position
+            // If that square is occupied, print an error message then use continue to repeat the loop
             
-            // Check if the new move resulted in three in a line
+            
+            // Mark the position with an 'X'
+            
+            
+            // Check if there is now a line of three on the board
             //
-            // There are three ways this can happen:
-            //     the new X is the left most of a group of three
-            //     the new X is in the middle of a group of three
-            //     the new X is on the right of a group of three
+            // Tip: use a for loop
+            //
+            // On each iteration, check if positions i, i + 1, and i + 2 are all 'X'.
             
-            // If so, declare the current player the winner and set playing = false
+            
+            // If a group of three exists, declare the current player the winner and set playing = false
+            
                         
             // In all other cases, switch to the other player
-            // Here's a fancy way of switching using the mod operation
+            // Here's a clever way of switching using the mod operator
             // 1 % 2 + 1 ---> 2
             // 2 % 2 + 1 ---> 1
-            player = (player % 2) + 1;
-            
+            player = (player % 2) + 1;   
             
         }
     

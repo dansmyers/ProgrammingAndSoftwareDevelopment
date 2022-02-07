@@ -57,7 +57,7 @@ We will use [Eclipse](https://www.eclipse.org/) for our programming assignments 
 |January 25|    The `for` loop and looping over arrays |Assignment 1 and Chapter 2 and 3 reading due|
 |January 27|    Two-dimensional arrays ||
 |February 1|    The `while` loop ||
-|February 3|   Writing static methods |Assignment 2 due|
+|February 3|   Writing static methods |Assignment 2 and Chapters 4 and 5 reading due|
 |February 8|    Intro to recursion ||
 |February 10|    Recursion practice ||
 |February 15|    Memory, the stack, and local variables ||

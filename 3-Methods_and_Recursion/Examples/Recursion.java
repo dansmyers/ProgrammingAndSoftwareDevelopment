@@ -1,3 +1,6 @@
+/**
+ * Example recursive methods
+ */
 
 public class Recursion {
 	

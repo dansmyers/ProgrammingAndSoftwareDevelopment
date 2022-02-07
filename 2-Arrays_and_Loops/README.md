@@ -1,9 +1,13 @@
 # Arrays and Loops
 
-## Assignment due on Thursday, February 11
+<img src="https://miro.medium.com/max/1006/1*iJhMo_FJ6ka70UU1t_h1eQ.png" width="30%" />
+
+## Assignment and reading due on Thursday, February 3
+
+## You may work with a partner on this assignment.
 
 ## Overview and Goals
-This unit will introduce two important features of Java that we'll be using for the rest of the class: loops and arrays.
+This unit will introduce important features of Java that we'll be using for the rest of the class:
 
 - The `while` and `for` loops.
 - One-dimensional arrays, including creation, indexing elements, and using loops to access arrays.
@@ -13,15 +17,19 @@ All of these features (with the possible exception of 2-D arrays) are similar to
 differences between Java's loop and array implementations and Python's `for` loop and lists.
 
 
-## Deliverables and Quiz
+## Deliverables
 
-Complete the problems in `Deliverables`. Remember that you may work freely with the members of your team and you may use any resources that you find helpful to
-complete the project. Put each program into its own `.java` file, then put all of your files into a ZIP archive and submit them through the assignment posted to Canvas.
+Complete the problems in `Deliverables`. Remember that you may work with a partner if you want to. Put each program into its own `.java` file, then put all of your files into a ZIP archive and submit them through the assignment posted to Canvas.
 
 ## Reading
 
-Complete the **participation questions** for Chapters 4 and 5 of the ZyBook. You don't need to complete the challenge questions or any sections that are marked as optional.
-The reading is due on the same day as the assignment.
+Complete the **participation questions** for Chapters 4 and 5 of the ZyBook. You don't need to complete the challenge questions or any sections that are marked as optional. The reading is due on the same day as the assignment.
+
+
+## Challenge Problem
+
+The last problem on the assignment, Treblecross, is our first **challenge problem**. This problem is optional for the basic assignment, but you must complete at least four challenge problems this semester to earn a B or an A.
+
 
 ## Java Features
 
@@ -42,12 +50,11 @@ similar operations.
 
 ## Schedule and Tips
 
-- Look at the Staircase and Pyramid examples, which show you how to combine multiple loops, counting variables, and printing to produce structured output. These will help
-you do the second problem.
+- Look at the Staircase and Pyramid examples, which show you how to combine multiple loops, counting variables, and printing to produce structured output. These will help you do the second problem.
 
 - The third problem (the Subtraction Game) is more complex, but doesn't require any new features.
 
-- The last two problems take a little longer to explain but aren't that challenging. Make sure you understand the magic square algorithm and try it out by hand if you need to
+- The last two problems take a little longer to explain; part of the challenge is understanding the problem before you code it. Make sure you understand the magic square algorithm and try it out by hand if you need to
 before you attempt to code it. Most of the work in the last problem (Treblecross) is writing the conditions that check for the winning condition. Completing the Subtraction
 Game first will help you with Treblecross.
 
