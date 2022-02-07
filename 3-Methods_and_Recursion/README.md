@@ -10,6 +10,8 @@ important concepts in computer science that you'll see over and over again in yo
 
 Complete the problems in `Deliverables`. Put each program into its own `.java` file, then put all of your files into a ZIP archive and submit them through the assignment posted to Canvas.
 
+This assignment only has two problems. Please read the descriptions carefully. Note that the first problem, writing recursive methods, requires you to use the code that I've given you as a starting point.
+
 ## Reading
 
 Complete the **participation questions** for Chapters 6 and 7 of the ZyBook, on methods and recursion. You don't need to complete the challenge questions or any sections that are marked as optional.
