@@ -10,6 +10,8 @@ Write a class called `Car` in a file named `Car.java`. Your class should have th
 
 Write a constructor that initializes the values of the instance variables, get methods for each variable, and a `toString` method.
 
+Write a second class called `CarDriver` (hah) with a `main` method that tests your `Car` class.
+
 ## Guitars
 
 <img src="http://getbusyyall.files.wordpress.com/2011/09/pointy-guitar.jpg" width="33%" />
