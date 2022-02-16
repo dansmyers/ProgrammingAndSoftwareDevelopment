@@ -14,11 +14,11 @@ Write a second class called `CarDriver` (hah) with a `main` method that tests yo
 
 ## Guitars
 
-<img src="http://getbusyyall.files.wordpress.com/2011/09/pointy-guitar.jpg" width="33%" />
+<img src="http://getbusyyall.files.wordpress.com/2011/09/pointy-guitar.jpg" width="35%" />
 
 *Much pointies. Such metal.*
 
-<img src="https://www.dreamguitars.com/shop/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/1/9/1990s-klein-electric-066-1.jpg" width="33%" />
+<img src="https://www.dreamguitars.com/shop/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/1/9/1990s-klein-electric-066-1.jpg" width="35%" />
 
 *Round guitars are totally not metal.*
 
@@ -59,6 +59,8 @@ Think about the base case: What value of *n* allows you to return immediately wi
 
 
 ## Mutant Bunnies
+
+<img src="https://i.pinimg.com/originals/c7/6f/44/c76f44b3ce4aac376292b8e0b911f95e.jpg" width="35%" />
 
 A group of *n* bunnies are standing in a line. The bunnies at odd-numbered positions have the standard two ears, but the bunnies standing at even-numbered positions are **mutated** and have ***three*** ears.
 
