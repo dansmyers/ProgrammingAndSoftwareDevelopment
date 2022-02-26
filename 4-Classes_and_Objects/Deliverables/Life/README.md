@@ -23,10 +23,9 @@ The universe of Life is an infinite two-dimensional grid of cells. At each momen
 
 All births and deaths happen **simultaneously**.
 
-<img src="http://cis-linux2.temple.edu:8080/SP18_3344_tuh35975/02_advLayout/images/life_rules.gif" width="40%" />
+<img src="https://pbs.twimg.com/media/EVsw6q6XkAAQ0SO.jpg" width="40%" />
 
-*Graphic from [Brandon Foltz's page at Temple](http://cis-linux2.temple.edu:8080/SP18_3344_tuh35975/02_advLayout/index.html#info). Notice that the two red cells marked in the
-last figure come to life at the same time in the next generation because they each have three living blue neighbors in the current generation.*
+*Graphic from [here](https://tutorhere.in/understanding-the-game-of-life-by-john-conway/)*.
 
 ## Play Around
 
@@ -78,21 +77,15 @@ Updates to the other cells are similar. If you want to represent the number of l
 -------------
 ```
 
-The next phase applies the rules of Life to determine which cells live and die in the next generation. **Remember that births and deaths happen *simultaneously***, so if we
-determine that a cell should come to life or die in the next generation, that decision has no effect on the neigbor counts for the current generation.
+The next phase applies the rules of Life to determine which cells live and die in the next generation. **Remember that births and deaths happen *simultaneously***, so if we determine that a cell should come to life or die in the next generation, that decision has no effect on the neigbor counts for the  current generation.
 
 By the rules,
 
 - The upper-left cell remains dead, because it has exactly two neighbors.
-
 - The upper-middle cell comes to life in the next generation, because it is currently dead and has exactly three neighbors.
-
 - The upper-right cell remains dead, because it has exactly two neighbors.
-
 - The center-left cell dies, because it is currently alive and has fewer than two living neighbors.
-
 - The center-middle cell survives, because it is currently alive and has two living neighbors.
-
 - And so forth.
 
 Take a moment to verify the reasoning for each cell in the grid. When you're done, you should be certain that the state of the grid in the next generation is:
@@ -107,8 +100,7 @@ Take a moment to verify the reasoning for each cell in the grid. When you're don
 -------------
 ```
 
-Repeating the steps will show that this grid will return to the original horizontal line configuation in its next generation. This simple three-cell pattern, alternating between 
-horizontal and vertical, is called a **blinker**. There are a number of other standard Life patterns, which often emerge spontaneously from more complex configurations.
+Repeating the steps will show that this grid will return to the original horizontal line configuation in its next generation. This simple three-cell pattern, alternating between  horizontal and vertical, is called a **blinker**. There are a number of other standard Life patterns, which often emerge spontaneously from more complex configurations.
 
 <img src="https://evolvingweb.ca/sites/default/files/inline-images/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3456565a547654717a5252304255774e49482f67697068792e676966.gif" width="60%" />
 
@@ -184,12 +176,7 @@ public void update() {
                 neighbors++:
             }
             
-            // Upper-middle neighbor
-            if (r > 0 && this.grid[r - 1][c]) {
-                neighbors++;
-            }
-            
-            // Add cases for the other six neighbors
+            // Add cases for the other seven neighbors
         
         
             // Use the rules of life to determine whether position (r, c)
