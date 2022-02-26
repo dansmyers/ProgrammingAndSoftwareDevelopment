@@ -12,9 +12,7 @@ Life is the best-known example of a **cellular automaton** and is famous for the
 The Life project has starter code in the `Deliverables` directory, which you must use to develop your solution. Note that this project is more complex than anything we have developed so far.
 
 - Take time to carefully read the descriptions and really understand the requirements for each problem.
- 
 - **Develop incrementally** and **test your code frequently as you develop**.
- 
 - **Start early**! Don't wait until the last minute. In particular, you should be able to write most of `Life` right away.
 
 ### Life
@@ -23,18 +21,15 @@ The Life project has starter code in the `Deliverables` directory, which you mus
 
 *Some people take this stuff really seriously.*
 
-Read through the description in the `Deliverables` directory. Your job is to complete the `Life` class, which will include all of the logic needed to implement the simulation. The `Life` project includes a driver class named `RunLife` that implements four automated patterns.
+Read through the description in the `Deliverables` directory. Your job is to complete the `Life` class, which will include all of the logic needed to implement the simulation. The `Life` project includes a driver class named `RunLife` that implements four automated testing patterns.
 
 - A simple three-square blinker that alternates between vertical and horizontal
-
 - A glider, the iconic Life pattern that walks diagonally across the grid
-
 - A more complex flashing pattern
-
 - **Gosper's Glider Gun**, a pattern that produces an infinite stream of gliders. The Gun is named after Bill Gosper, who created it in 1970, winning $50 from 
 John Conway for discovering the first Life pattern that could produce an infinite number of living cells.
 
-Don't modify `RunLife`, but you may want to look at it to understand how it uses the `Life` class.
+I'll use `RunLife` to test your code. If each pattern displays and evolves correctly, then you'll get full credit. Don't modify `RunLife`, but you should look at it to understand how it uses the `Life` class.
 
 ### Number One Jams
 
