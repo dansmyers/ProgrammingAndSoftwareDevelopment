@@ -85,15 +85,13 @@ Use that program as a guide as you write new programs to answer the questions be
 Write Java programs to answer each of the following questions. This project is worth **five** total points, one point per question. You will receive full credit
 for a question if your program produces output that gives a satisfactory answer.
 
-1. Which artist has more all-time chart appearances: Prince or Madonna? Tip: Only count appearances as solo artists, so you only need to match songs
-by "Prince" and "Madonna".
+**1980's**. Which artist has more all-time chart appearances: Prince or Madonna? Tip: Only count appearances as solo artists, so you only need to match songs by "Prince" and "Madonna".
 
-2. Find and print all of the number one hits by Elvis Presley.
+**The King**. Find and print all of the number one hits by Elvis Presley.
 
-3. Which song spent the greatest total number of weeks on the charts?
+**Longevity**. Which song spent the greatest total number of weeks on the charts?
 
-4. How many unique artists are in the entire data set? This is not the same as the number of lines in the file, because many artists have had multiple
-charting songs. The easiest way to create a set of the unique artists is to use a `HashSet<String>`, which maintains a set of values with no duplicates.
+**Unique Artists** How many unique artists are in the entire data set? This is not the same as the number of lines in the file, because many artists have had multiple charting songs. The easiest way to create a set of the unique artists is to use a `HashSet<String>`, which maintains a set of values with no duplicates.
 Take a look at [the `HashSet` documentation](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html). To create a new `HashSet<String>`,
 
 ```
@@ -103,7 +101,7 @@ HashSet<String> artists = new HashSet<String>();
 
 You can then use the `add` method to put items into `artists` and the `size` method to get the size of the final set at the end of the program.
 
-5. A major change in the charts took place in late 1991, when *Billboard* switched to using Nielsen’s SoundScan 
+**SoundScan**. A major change in the charts took place in late 1991, when *Billboard* switched to using Nielsen’s SoundScan 
 technology to automatically track radio play of songs. Prior to 1991, song popularity was determined from surveys filled 
 out by radio stations. It’s been said that the switch to SoundScan led to popular songs remaining on the charts longer
 than the old survey system. Determine if this is empirically true by calculating the average time spent on the charts
