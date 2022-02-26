@@ -1,6 +1,8 @@
 
 # Classes and Objects
 
+<img src="https://imgs.xkcd.com/comics/bonding_2x.png" width="40%" />
+
 ## Deliverables and reading are due on Tuesday, 3/8
 
 ## You can work with a partner to complete this assignment.
