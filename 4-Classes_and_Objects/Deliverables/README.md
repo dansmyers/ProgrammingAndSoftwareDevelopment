@@ -46,12 +46,7 @@ Don't modify `RunLife`, but you may want to look at it to understand how it uses
 
 In this project you’ll work with a data set containing information from 64 years of the *Billboard* charts.
 We're going to work with data taken from the **Hot 100**, which tracks the 100 most popular songs in the country, determined
-by aggregating various factors, including radio airplay and, in the modern era, streams.
-
-This is intentionally a shorter project that will allow you to practice working with files before we dig into the remaining major
-projects in the second part of the course.
-
-The data for the project is taken from the TSorT music pages, which compile lots of information about music charts from all over the world:
+by aggregating various factors, including radio airplay and, in the modern era, streams. The data for the project is taken from the TSorT music pages, which compile lots of information about music charts from all over the world:
 
 https://tsort.info/music/
 
