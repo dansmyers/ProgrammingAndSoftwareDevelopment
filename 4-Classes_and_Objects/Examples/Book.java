@@ -2,52 +2,58 @@
  * A class that represents a book with a title, author, and price
  * 
  * @author dmyers
+ *
  */
 
 public class Book {
 	
-	/**
-	 * Instance variables to represent the title, author, and price
-	 * 
-	 * Instance variables are the internal data of the object
-	 * Also call them fields or attributes
-	 * 
-	 * Variables declared outside of any method become the instance
-	 * variables (internal data) for objects of this class
-	 */
+	// Declare instance variables -- every new Book gets its own copy of these variables
 	private String title;
 	private String author;
 	private double price;
 	
+	// Java supports four different access modifiers
+	//
+	// Each modifier sets rules on how a piece of data or method can be used by other parts of the program
+	//
+	// 1. public -- public data and methods are visible everywhere
+	// 2. private -- private data and methods are only visible from within the class where they're declared
 	
-	/**
-	 * Constructor -- set the values of the three variables when
-	 * the new object is instantiated
-	 * 
-	 * Name of the constructor method is the same as the name of the class
-	 * (including capital letter)
-	 * 
-	 * Does not have a return type, not even void
-	 * 
-	 * Three inputs are the values of the new instance variables
-	 */
-	public Book(String title, String author, double price) {
-		// this is the special "object self-reference"
-		// Used to refer to a class's internal variables from within
-		// the class's own code
-		// Not strictly required but I find it useful
+	// public and private are BY FAR the two most common access modifiers that we'll use
+	
+	// 3. protected -- like private, but data is also visible to other classes in the same package (or directory)
+	//                 and to any subclasses that have inherited from this class
+	
+	// 4. no modifier (default) -- like private, but data is also visible to other classes in the same
+	//                             package or directory
+	
+	
+	// Common model: private internal instance variables with public methods
+	// Serves the goal of encapsulating data and providing methods with a well-defined
+	// interface for interacting with it
+
+	
+	public Book(String newTitle, String newAuthor, double newPrice) {
 		
-		this.title = title;
-		this.author = author;
-		this.price = price;
+		this.title = newTitle;
+		this.author = newAuthor;
+		this.price = newPrice;
 	}
 	
 	
-	/**
-	 * "Get" methods -- "Accessor" methods
-	 * 
-	 * Each method returns the value of a private variable
-	 */
+	// Class methods that interact with instance variables CANNOT be static
+	//
+	// static methods can be used for code that takes inputs and produces an output, but
+	// they can't depend on internal instance variables (e.g. Math.sqrt())
+	//
+	// Static methods belong to the class as a whole, so they cannot access or use any data
+	// created for a particular instance of the class
+	
+	// Accessor methods (or "get" methods) return the value of a private variable
+	
+	// Format: must be public, name is always get + name of variable
+	// Return type is always the type of the variable
+	
 	public String getTitle() {
 		return this.title;
 	}
@@ -55,46 +61,53 @@ public class Book {
 	public String getAuthor() {
 		return this.author;
 	}
-
-    public double getPrice() {
-    	return this.price;
-    }
 	
-    
-    /**
-     * "Set" methods -- "Mutator" methods
-     * 
-     * Each method changes the value of a private variable
-     * 
-     * If we do not want a variable to be mutable, we can enforce
-     * that rule by not providing a set method
-     * 
-     * Do not provide setTitle or setAuthor to make those fields
-     * read-only
-     * 
-     * If we do provide a set method for a variable, we can add
-     * extra logic to make sure the changes are reasonable
-     */
-    public void setPrice(double newPrice) {
-    	if (newPrice < 0) {
-    		System.out.println("Price must be non-negative.");
-    		return;
-    	}
-    	
-    	this.price = newPrice;
-    }
+	public double getPrice() {
+		return this.price;
+	}
+	
+	// set methods ("mutator methods") are used to change the value of a private instance variable
+	// method can enforce restrictions on what values are reasonable
+	
+	// Format: public, name is set + name of the variable, return type is void
+	// Take one input, which is the same type as the variable
+	
+	public void setAuthor(String newAuthor) {
+		this.author = newAuthor;
+	}
 	
 	
+	public void setPrice(double newPrice) {
+		if (newPrice <= 0) {
+			// Do something to reject the price
+			
+			// Third option: actually create an error that will crash the entire program
+			//
+			// Java does this a mechanism called "throwing errors"
+			//
+			// When a program gets into a bad runtime state, it can throw an error, which
+			// may result in the program crashing
+			
+			
+			// Second option, print an error message
+			System.out.println("That is a bad price. You have caused confusion and delay.");
+			
+			
+			// One option: just to fail silently, return without making a change
+			return;
+			
+			
+		} else {
+			this.price = newPrice;
+		}
+	}
 	
-	/**
-	 * toString -- returns a String representation of the object
-	 * 
-	 * Called automatically when you print an object and whatever
-	 * the method returns is what gets printed
-	 */
+	
+	// toString gets called automatically when you print an object
+	// It must return a String
+	// Java prints the String that is returned by toString, rather than the hashCode
 	public String toString() {
 		return this.title + " by " + this.author + ", " + this.price;
 	}
 	
-
 }

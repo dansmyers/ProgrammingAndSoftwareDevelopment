@@ -1,6 +1,5 @@
 /**
- * "Driver" class contains the main method that actually
- * starts the application -- in this case, test Book.java
+ * Write a main method to test the Book class
  * 
  * @author dmyers
  *
@@ -9,28 +8,37 @@ public class BookDriver {
 
 	public static void main(String[] args) {
 		
-		// Create a new instance of the Book class
-		// Use the new keyword and the Book constructor method
-		
-		// The constructor is a special method that always has the same
-		// name as the class
+		// Create a new Book object
 		//
-		// The constructor's job is to perform the initialization of
-		// a new object of the particular class
-
-		Book hobbit = new Book("The Hobbit", "J.R.R. Tolkien", 9.99);
-		Book austen = new Book("Pride and Prejudice", "Jane Austen", 15.99);
-		Book got = new Book("Game of Thrones", "George R.R. Martin", 19.99);	
+		// Recall: use the new keyword to allocate memory and call the constructor
+		// for the class, which has the same name as the class
 		
-    // Printing an object invokes its custom toString method if one exists
-		System.out.println(hobbit);
-		System.out.println(austen);
-		System.out.println(got);
+		Book hp1 = new Book("Harry Potter and the Sorceror's Stone", "J.K. Rowling", 8.99);
 		
-    // Set and get methods for interacting with private instance variables
-    hobbit.setPrice(.99);
-		System.out.println("The price of the Hobbit is " + hobbit.getPrice());
-
+		// Let's make another book
+		Book pnp = new Book("Pride and Prejudice", "Jane Austen", 12.99);
+		
+		
+		Book grinch = new Book("How the Grinch Stole Christmas", "Dr. Seuss", 5.99);
+		
+		// Let's print a Book
+		System.out.println(pnp);
+		System.out.println(hp1);
+		System.out.println(grinch);
+		
+		// Goal: enforce logical restrictions on how variables get used and protect
+		// them from illogical operations that don't make sense in the context
+		// of the program
+		
+		// Solution: private instance variables with class methods to interact with them
+		
+		System.out.println(pnp.getTitle());
+		System.out.println(pnp.getAuthor());
+		
+		// Write a set method to change the value of price, but in only reasonable ways
+		pnp.setPrice(2.99);   // Okay
+		pnp.setPrice(-2.99);  // Error
+		
 	}
 
 }
