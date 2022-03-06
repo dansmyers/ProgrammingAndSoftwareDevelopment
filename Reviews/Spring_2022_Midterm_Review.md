@@ -1,5 +1,7 @@
 # Spring 2022 Midterm Review
 
+<img src="https://imgs.xkcd.com/comics/bug.png" width="40%" />
+
 ## Overview
 
 The exam is 12 questions, all short answer and worth the same number of points. Remember that under our specs grading system you only need to **pass** the exam in order for it to count towards a passing grade for the overall class. In order to pass, you must
@@ -7,7 +9,7 @@ The exam is 12 questions, all short answer and worth the same number of points. 
 1. Make a reasonable attempt at every question. You can't leave any questions blank or write something completely irrelevant.
 2. Earn at least 60 / 100 total points across the 12 questions. I will award full credit to answers that are substantially complete and correct (there may be issues but only minor ones) and half credit to questions that are partially correct.
 
-You will not have to write classes or complete programs, but there are some questions that ask you to write methods.
+You will not have to write classes or complete programs, but there are some questions that ask you to write methods. I won't penalize you for minor syntax errors but I reserve the right to deduct points for major errors or repeated mistakes that show a lack of familiarity with basic Java syntax or style.
 
 ## Basic Java
 
