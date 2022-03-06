@@ -34,7 +34,9 @@ Know the difference between *value equality* (two strings have the same sequence
 
 ### Example questions
 
-Write a loop that prints all of the characters in a String.
+Write a loop that prints all of the characters in a `String`.
+
+Write a loop that counts the number of `'a'` characters in a `String`.
 
 Write a boolean method named `startsWithQ` that takes a `String` as input
 and returns `true` if the `String` starts with `'q'` and `false` otherwise.
@@ -51,7 +53,7 @@ There will be a question about looping over 2-D arrays.
 
 ### Example Questions
 
-Initialize a 5x5 2-D arrays and fill it with the numbers 1 to 25.
+Initialize a 5x5 2-D array and fill it with the numbers 1 to 25.
 
 Print all of the elements of a 2-D array in matrix style.
 
@@ -78,3 +80,7 @@ programming. Why is encapsulation beneficial for programmers?
 Give two examples of encapsulation in Java classes that we have used.
 
 Name and describe the four access modifiers.
+
+## Files
+
+Be able to write a code block that opens a file (using `try`-`catch` and `Scanner`) and then loops through and prints each line of the file.
