@@ -2,7 +2,7 @@
 
 ## Overview
 
-The exam is 12 questions, all short answer and worth the same number of points. Remember that under our specs grading system you only need to **pass** the exam in order for it to count towards a passing grade. In order to pass, you must
+The exam is 12 questions, all short answer and worth the same number of points. Remember that under our specs grading system you only need to **pass** the exam in order for it to count towards a passing grade for the overall class. In order to pass, you must
 
 1. Make a reasonable attempt at every question. You can't leave any questions blank or write something completely irrelevant.
 2. Earn at least 60 / 100 total points across the 12 questions. I will award full credit to answers that are substantially complete and correct (there may be issues but only minor ones) and half credit to questions that are partially correct.
