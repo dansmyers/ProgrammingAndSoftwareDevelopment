@@ -1,6 +1,6 @@
 # Spring 2022 Midterm Review
 
-<img src="https://imgs.xkcd.com/comics/bug.png" width="40%" />
+<img src="https://imgs.xkcd.com/comics/bug.png" width="30%" />
 
 ## Overview
 
