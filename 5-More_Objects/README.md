@@ -4,7 +4,7 @@
 
 ## Description
 
-This folder contains two assignments that will allow you to continue to practice using object-oriented programming concepts, as well as Java's built-in `ArrayList` class.
+This folder contains two assignments that will allow you to continue to practice using object-oriented programming concepts, as well as Java's file interface and built-in `ArrayList` class.
 
 - A **required** project to implement a blackjack game using the `Card` and `Deck` files we built in class.
 - An **optional** challenge project to implement a spellchecking program using Java's built-in `HashSet`.
