@@ -1,5 +1,7 @@
 # Challenge Project: Spellcheker
 
+## Complete this project by yourself
+
 ## Description
 
 In this project, you'll use `ArrayList` and file operations to implement a spelling checker tool. On creation, the checker will open a large list of common
