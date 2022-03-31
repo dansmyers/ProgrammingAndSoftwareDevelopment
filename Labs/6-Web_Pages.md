@@ -4,7 +4,7 @@
 
 ### Creating the Page
 
-Go to [jsfiddle.net], a site that lets you practice writing web-based code projects. Put the following text in the HTML window. I'll tell you more about how this file is put together in the next section, after you've had the
+Go to [jsfiddle.net](), a site that lets you practice writing web-based code projects. Put the following text in the HTML window. I'll tell you more about how this file is put together in the next section, after you've had the
 chance to run and display it.
 
 ```
