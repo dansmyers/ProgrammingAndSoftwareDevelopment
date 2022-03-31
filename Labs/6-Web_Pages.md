@@ -94,7 +94,7 @@ Yikes. That's large. You can add style to the tag to scale the image to a percen
 
 ```
 <p>
-    <img src="The_Great_Wave_off_Kanagawa.jpg" style="width:50%"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg" style="width:50%"/>
 </p>
 ```
 
