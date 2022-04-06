@@ -13,24 +13,13 @@ https://www.youtube.com/watch?v=dScq4P5gn4A
 
 ![](http://www.playthepast.org/wp-content/uploads/2011/10/636x460design_01.jpg)
 
-## Reading
-
-Complete the **participation questions** for Chapter 3 of the ZyBook. You **do not** need to complete the challenge questions or any optional or hidden sections.
-
-## Honor Code
-
-Add a file to your project that contains your name, a statement of the Honor Code, and references for any external resources you used in preparing your project.
-
 ## Details
 
 The basic game has four elements:
 
 - Pac-Man (or Ms. Pac-Man, if you prefer)
-
 - The Ghosts
-
 - The pellets that Pac-Man eats. Eating all the pellets ends the level.
-
 - The walls that block both Pac-Man and Ghost movements.
 
 For our version, the only requirement will be to navigate Pac-Man through a maze, avoiding the ghosts, until he eats every pellet. The layout of the level does not have to copy the classic Pac-Man board: it will be easier to start with a simpler layout.
@@ -38,11 +27,8 @@ For our version, the only requirement will be to navigate Pac-Man through a maze
 Keep the graphics simple:
 
 - Pac-Man can be a yellow circle.
-
 - The ghosts can be colored squares.
-
 - The pellets are small circles.
-
 - The walls are solid rectangles.
 
 Note: there are ways to incorporate images and more complex shapes with `StdDraw` functions. You might want to experiment with those after you get the core game working. See the last section for more ideas on advanced features you can add.
@@ -54,13 +40,9 @@ Note: there are ways to incorporate images and more complex shapes with `StdDraw
 The project repo comes with five classes:
 
 - `Game.java`: the `main` method and game loop.
-
 - `PacMan.java`: represents Pac-Man, all of his attributes, and relevant methods.
-
 - `Ghost.java`: a ghost, with its attributes and relevant methods.
-
 - `Pellet.java`: a pellet, with variables representing its location.
-
 - `Wall.java`: a single rectangular wall.
 
 The classes have a few methods and game elements in place to help you get started, but they're far from complete. You'll probably need to add methods and parameters to each class as you build out the game features.
