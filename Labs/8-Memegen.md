@@ -25,21 +25,6 @@ The lab should take about an hour. Once you finish you can make some memes and e
 
 ## Initialization
 
-Create a new directory and a new node project.
-
-```
-$ cd cms450/front_end
-$ mkdir meme_gen
-$ cd meme_gen
-$ npm init
-
-Go through the npm init process
-Remember to change the entry point name from index.js to app.js
-
-$ npm install express --save
-$ cp ../hello_app/app.js .
-$ touch index.html
-```
 
 Open `index.html` and you're ready to start coding. Here's a shell Bootstrap page. Copy and paste it into your `index.html`.
 
@@ -86,13 +71,7 @@ Open `index.html` and you're ready to start coding. Here's a shell Bootstrap pag
 </html>
 ```
 
-Save the file, then run your node server.
-
-```
-$ node app.js
-```
-
-Visit your workspace's page, whcih is available by right-clicking (or CTRL + click on Mac) on your workspace name and choosing Info.
+Run the page and view it.
 
 ## Bootstrap Overview
 
