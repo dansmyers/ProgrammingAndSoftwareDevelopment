@@ -1,4 +1,4 @@
-# Unit 5 &ndash; Graphics and Objects
+# Unit 5 &ndash; Graphical Games
 
 <img src="https://i.pinimg.com/originals/59/6c/ea/596cea092c81b88801087b5f8948c9d5.jpg" width="35%" />
 
@@ -18,7 +18,7 @@ complete the project. Put each program into its own `.java` file, then put all o
 
 ## Challenge Project
 
-The challenge project folder contains a second graphical game for you to implement. You can complete that one, or you can make **any other classic arcade game that you want** using `StdDraw` functions and our object-oriented programming techniques.
+The challenge project folder contains a second graphical game for you to implement. You can complete that one, or you can make **any other classic game that you want** using `StdDraw` functions and our object-oriented programming techniques.
 
 This is intentionally open, so you have lots of choices. You don't have to be super ambitious or implement crazy features, just focus on getting the basic gameplay of your choice and then incrementally making it better. Take a look at the basic challenge project for some tips and guidelines that will be helpful no matter what game you choose to do.
 
@@ -26,7 +26,7 @@ Some options:
 
 - *Space Invaders* is a good choice. Use an `ArrayList<Square>` to represent the enemy alien ships
 - *Centipede* is like *Snake* plus a shooting element
-- *Tetris* is cool, but very difficult. If you try it, I think the best approach is to use a 2-D array of Square objects to represent the board and represent each piece as a collection of Squares. The piece drops down until dropping it further would intersect it with another Square that's already in the array.
+- *Tetris* is cool, but very difficult. If you try it, I think the best approach is to use a 2-D array of Square objects to represent the board and represent each piece as a collection of Squares. The piece drops down until dropping it further would intersect it with another Square that's already in the array. Again, this one is pretty hard.
 
 I've also given you one more example that uses the mouse: *Minesweeper*. You can use that as a template for click-based games.
 
