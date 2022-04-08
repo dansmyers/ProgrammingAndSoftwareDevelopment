@@ -1,6 +1,6 @@
-# Sprint 5 &ndash; Graphics and Objects
+# Unit 5 &ndash; Graphics and Objects
 
-<img src="http://www.hrwiki.org/w/images/3/3f/peasantsquest.png" width="50%" />
+<img src="https://i.pinimg.com/originals/59/6c/ea/596cea092c81b88801087b5f8948c9d5.jpg" width="50%" />
 
 ## Deliverables and Challenge Project are due on Tuesday, 4/19
 
