@@ -2,7 +2,9 @@
 
 ## Exam Details
 
-The format will be similar to the midterm: ten questions, all short answer. The most important theoretical content we've covered in the second half of the class is our last unit on Big-O notation and complexity.
+The format will be similar to the midterm: ten questions, all short answer. The most important theoretical content we've covered in the second half of the class is our last unit on Big-O notation and complexity, so there will be several questions from that material.
+
+I will not revisit material on object-oriented programming from the first half of the class, but I reserve the right to ask you to write functions or code fragments that work with arrays, ArrayLists, or recursion.
 
 ## Big-O Notation and Complexity
 
