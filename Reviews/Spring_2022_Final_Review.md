@@ -2,7 +2,7 @@
 
 ## Exam Details
 
-
+The format will be similar to the midterm: ten questions, all short answer. The most important theoretical content we've covered in the second half of the class is our last unit on Big-O notation and complexity.
 
 ## Big-O Notation and Complexity
 
@@ -44,6 +44,37 @@ input size      run time
 Doubling the input size increases the run time by a factor of four, so run time scales *quadatically* with peformance in this example. That is, if the input size is *n*, then performance is *O(n<sup>2</sup>*.
 
 Try writing down tables that would show different relationships (e.g. linear, quadratic, cubic).
+
+### Code Complexity
+
+Be able to look at a code fragment and identify its complexity. General tips:
+
+- A single for loop that goes from 1 to *n*, or similar, will be *O(n)*
+- A pair of nested loops that each iteratate from 1 to *n* will be *O(n<sup>2</sup>)*
+- What about triply-nested loops?
+
+How about the following examples? Think carefully about how many times the innermost statement executes as a function of *n*.
+
+```
+int count = 0;
+
+// Notice! The loop does not add 1 on each iteration!
+for (int i = 0; i < n; i = i * 2) {
+    count += 1;
+}
+```
+
+```
+int count = 0;
+
+for (int i = 0; i < n; i++) {
+
+    // Notice! The inner loop doesn't depend on n!
+    for (int c =0; c < 1000; c++) {
+        count += 1;
+    }
+}
+```
 
 
 ## Binary Search
