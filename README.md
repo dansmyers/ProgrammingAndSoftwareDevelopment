@@ -141,7 +141,7 @@ To earn a C:
 To earn a B:
 
 - Complete the requirements for a C.
-- Complete 4 additional challenge problems during the course of the semester.
+- Complete ~4~ ***3*** additional challenge problems during the course of the semester.
 
 To earn an A:
 
