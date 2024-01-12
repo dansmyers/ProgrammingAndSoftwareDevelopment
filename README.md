@@ -66,10 +66,10 @@ The textbook for this course is the preprinted draft of my forthcoming text *Dat
 - Spring break: March 11 to March 17
 - Last day to drop the class: January 30
 - Last day to withdraw without penalty: March 29
-
 - Midterm exam: 3/7 (in-class). This is the last class meeting before Spring Break.
 - Final exam: 5/7 at 11 AM to 1 PM. The final exam covers the *second half* of the course.
-- I am not able to accommodate requests for alternate exam times other than those scheduled through the official Testing Center. Please plan to take exams at the scheduled time and place and keep this in mind when you're scheduling your travel for the end of semester and breaks.
+
+I'm not able to accommodate requests for alternate exam times other than those scheduled through the official Testing Center. Please plan to take exams at the scheduled time and place and keep this in mind when you're scheduling your travel for the end of the semester and breaks.
 
 ## The All-Important Grading Section
 
