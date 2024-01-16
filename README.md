@@ -27,7 +27,7 @@ At the end of this course, you will be able to:
 
 3. Demonstrate familiarity with important abstract data types: two-dimensional arrays, `ArrayList`, `HashMap`.
 
-4. Write distributed programs using a client-server architecture and a REST-based API.
+4. Use Java's built-in classes to create graphical applications.
 
 5. Use standard tools for software testing, version control, and debugging.
 
