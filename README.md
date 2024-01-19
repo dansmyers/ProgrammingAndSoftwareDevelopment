@@ -86,7 +86,7 @@ Your grade will be based on the following three things:
 
 1. A set of **regular assignments**, about five during the semester. These will focus on a combination of Java programs and short answer questions from the textbook.
 
-2. **Challenge problems**, roughly one per assignment, which are somewhat more complex than the regular homework questions and require you to stretch a little bit.
+2. **Challenge problems**, three during the semester, which are somewhat more complex than the regular homework questions and require you to stretch a little bit.
 
 3. **Midterm and final exams**. The final covers the second half of class.
 
