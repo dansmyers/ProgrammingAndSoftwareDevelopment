@@ -1,4 +1,4 @@
-# Sprint 1 &ndash; Deliverable Programs
+# Assignment 1 &ndash; Deliverable Programs
 
 ## Description
 Write Java programs for each of the following. Create a separate `.java` file for each question and put your code in the `main` method of the class. Put all of your Java files into one ZIP archive and submit the ZIP file through the assignment on Canvas.
