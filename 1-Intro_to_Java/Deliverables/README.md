@@ -62,41 +62,22 @@ Tips:
 final double USD_PER_DOGE = .003;
 ```
 
+## The Newton-Pepys Problem
 
-## Binet's Formula
+<img src="https://cdn.aarp.net/content/dam/aarp/food/healthy-eating/2016/2016-05/1140-peeps-nation.imgcache.rev3aa6a5a0b7d521bbef63f0e833d97a8f.web.900.513.jpg" width="40%" />
 
-You've heard of the famous Fibonacci sequence, where each term is calculated by adding the two previous terms:
+Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he
+corresponded with Isaac Newton regarding a wager:
 
-```
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-```
+>Which of the following three propositions has the greatest chance of success?
+>
+>- Six fair dice are tossed independently and at least one six appears.
+>- Twelve fair dice are tossed independently and at least two sixes appear.
+>- Eighteen fair dice are tossed independently and at least three sixes appear.
 
-Suppose you would like to calculate the *n*<sup>th</sup> Fibonacci number. How could you do that?
+What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
 
-One way is to start at the base case and grind your way up through the sequence until you've calculated *n* total terms.
-
-It turns out, though, that there is a **single formula** that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form. The result is know as **Binet's formula**, and it says that the Nth Fibonacci number *f*<sub>*n*</sub> is
-
-<img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
-
-Gnarly.
-
-The number `(1 + sqrt(5)) / 2` is the famous **golden ratio**, the most aesthetically pleasing of all proportions. It's sometimes denoted by the Greek letter φ (phi) after the ancient architect and sculptor Phidias, who used it in planning the design of the Parthenon.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg" width="50%" />
-
-Write a Java program called `Binet.java` that prompts the user for a value of *n* and then uses Binet's formula to calcuate the *n*<sup>th</sup> Fibonacci number.
-
-Tips:
-
-- Again, use a `Scanner` to read from `System.in`. Use the `nextInt` method to read an `int` value from the console.
-
-- Use `Math.sqrt()` to calculate square roots. For example,
-
-```
-double phi = (1 + Math.sqrt(5)) / 2;
-```
-
+Tip: notice that the problem is phrased as *at least* **not** *exactly*.
 
 ## Magic 8-Ball
 
