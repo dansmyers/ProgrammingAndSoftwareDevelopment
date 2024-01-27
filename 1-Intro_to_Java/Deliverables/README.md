@@ -75,9 +75,9 @@ corresponded with Isaac Newton regarding a wager:
 >- Twelve fair dice are tossed independently and at least two sixes appear.
 >- Eighteen fair dice are tossed independently and at least three sixes appear.
 
-What is the answer to Pepys' question? Calculate your answer exactly using a discrete probability distribution, not a simulation model.
+What is the answer to Pepys' question? Write a simulation program to test each proposition a large number of times and report the number of times each proposition successed.
 
-Tip: notice that the problem is phrased as *at least* **not** *exactly*.
+Tip: This is question 26 at the end of Chapter 1. Read the section on Monte Carlo simulation and look at the sic bo example. Write a `toss` method that takes a number `n` as input, tosses `n` dice and then reports the number of sixes that occurred. For each proposition, call `toss` in  a loop with the appropriate value of `n`, test the resulting number of sixes, and keep count of how many trials succeed.
 
 ## Magic 8-Ball
 
