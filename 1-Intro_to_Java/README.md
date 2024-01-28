@@ -1,6 +1,6 @@
 #  Intro to Java
 
-## Assignment and reading due Tuesday, February 6
+## Due Tuesday, February 6
 
 ## Overview and Goals
 
