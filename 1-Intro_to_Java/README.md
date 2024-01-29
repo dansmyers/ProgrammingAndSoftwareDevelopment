@@ -66,5 +66,7 @@ At the end of this unit, you should be comfortable with the following Java featu
 
 - **Don't wait until the last minute**. You won't have enough time to finish everything.
 
+- **Test your programs thoroughly before submitting them**. Your programs must compile and run to receive any credit. Do not, under any circumstances, submit code that you wrote without testing, no matter how easy you think the question is.
+
 - **Remember the Honor Code** and my guidelines for acceptable collaboration.
 
