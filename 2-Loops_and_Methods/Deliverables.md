@@ -155,3 +155,24 @@ To get full credit for this program, you must do the following:
 - Correctly end the game with a winning message when the number of stones reaches 0.
 
 - If the game has not ended yet, switch to the other player.
+
+
+## Polybius
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Polybius%2C_coinop.org.jpeg" width="33%" />
+
+*This would be a cool game, [if it ever existed](https://en.wikipedia.org/wiki/Polybius_(urban_legend))*
+
+Implement the Polybius square encryption and decryption methods from Chapter 1. Make one class called `Polybius` and give it `encrypt` and `decrypt` methods. You can use the default square given in the text. Write a `main` method that encrypts the test string `"THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG"`, prints the encrypted version, the decrypts it to show that you can recover the original string.
+
+
+## ADFGX
+
+These are questions 33 and 34 at the end of Chapter 1.
+
+In practice, hand ciphers that used the Polybius square encoding technique preferred to map the rows and columns to phonetically distinct letters rather than numbers, in order to facilitate transmission of messages over radio. Write a variation of the Polybius encryption method that uses the five-by-five square but outputs the letters ADFGX in place of the numbers zero to four.
+
+Then write the corresponding decryption method that can take a sequence characters encoded using the ADFGX square and recover the original message.
+
+Put your code in a class named `ADFGX` with `encrypt` and `decrypt` methods. Use the same `main` as the previous problem.
+
