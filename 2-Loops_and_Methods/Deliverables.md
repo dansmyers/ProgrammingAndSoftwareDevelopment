@@ -117,7 +117,7 @@ public class SubtractionGame {
         
             System.out.println();
             System.out.println("Stones: " + stones);
-            System.out.println("It's your turn, Player " + player + ".";
+            System.out.println("It's your turn, Player " + player + ".");
             System.out.println("Take 1, 2, or 3 stones from the pile.");
             
             
