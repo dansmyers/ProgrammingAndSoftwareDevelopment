@@ -37,7 +37,7 @@ Take a look at the rosettes and spirals at the end of Chapter 3 for some tips on
 
 <img src="https://cdn-blog.adafruit.com/uploads/2021/09/Untitled-114.png" width="400px" />
 
-*AdaFruit: [The History of the Logo Language](https://blog.adafruit.com/2021/09/21/the-history-of-the-logo-language-an-updated-post-vintagecomputing-programming-history/)
+*AdaFruit: [The History of the Logo Language](https://blog.adafruit.com/2021/09/21/the-history-of-the-logo-language-an-updated-post-vintagecomputing-programming-history/)*
 
 <br/>
 
