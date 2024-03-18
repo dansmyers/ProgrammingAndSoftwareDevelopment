@@ -74,40 +74,57 @@ Let's write our own simple Logo-style programming system.
 
 - Iterate through the lines of the file and execute the `Turtle` command described by each one.
 
-Here's some starting code showing how you might begin implementing this.
+Here's some starting code showing how you might begin implementing this. This shows an example of using `Scanner` to read from a file.
 
 ```
 /**
- * Main method of TurtleDriver
+ * Read Turtle command from a file
  */
-public static void main(String[] args) {
 
-  // New Turtle
-  Turtle t = new Turtle();
+// Import File and FileNotFoundException
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
-  //*** TODO: Add code to create a Scanner and open the example file ***//
+public class TurtleDriver {
 
-  // Loop through the file's lines
-  while (input.hasNext()) {
-    // Read the next line
-    String line = input.next();
+  public static void main(String[] args) {
+    // New Turtle
+    Turtle t = new Turtle();
 
-    //*** TODO: Skip lines that start with a semicolon ***//
-
-    // Split the line into the command and any additional arguments
-    String[] parts = line.split();
-    String command = parts[0];
-
-    // Move command    
-    if (command.equalsIgnoreCase("move")) {
-      // Move distance is the second part of the command
-      int distance = Integer.parseInt(parts[1]);
-
-      // Call the turtle method
-      t.move(distance);
+    // Open an example file with Scanner
+    //
+    // This can file if the file doesn't exist, so it's wrapped
+    // in a try-catch block
+    Scanner input = null;
+    try {
+      input = new Scanner(new File("example.tl"));
+    } catch(FileNotFoundException e) {
+      e.printStackTrace();
     }
 
-    //*** TODO: Add cases for other commands ***//
+    // Loop through the file's lines
+    while (input.hasNext()) {
+      // Read the next line
+      String line = input.next();
+
+      //*** TODO: Skip lines that start with a semicolon ***//
+
+      // Split the line into the command and any additional arguments
+      String[] parts = line.split();
+      String command = parts[0];
+
+      // Move command    
+      if (command.equalsIgnoreCase("move")) {
+        // Move distance is the second part of the command
+        int distance = Integer.parseInt(parts[1]);
+
+        // Call the turtle method
+        t.move(distance);
+      }
+
+      //*** TODO: Add cases for other commands ***//
+    }
   }
 }
 ```
@@ -121,3 +138,9 @@ You should support the following basic commands
 - Lines beginning with semicolons are comments
 
 Test your program on the given example file, then write your own `.tl` file that draws a different image.
+
+## Tips
+
+- **Start early**. Don't wait until the last minute!
+
+- Review the implementation of `Turtle` and the other examples given in Chapter 3.
