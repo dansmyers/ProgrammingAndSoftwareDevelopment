@@ -38,8 +38,7 @@ chemin de fer has died out in the real world. According to Wikipedia, more than 
 
 The game is led by a dealer, who handles all the cards according to a fixed set of rules called the *tableau* ("table").
 
-A round begins with the dealer dealing out two hands of two cards each, which are called the "Player" and the "Banker". The names are just traditional: all of the card handling
-and decision making is done by the dealer according to the tableau. Gamblers may bet for either hand to win and the two bets have different odds.
+A round begins with the dealer dealing out two hands of two cards each, which are called the *Player* and the *Banker*. The names are just traditional: all of the card handling and decision making is done by the dealer according to the tableau. Gamblers may bet for either hand to win and the two bets have different odds.
 
 Every card has a point value:
 
