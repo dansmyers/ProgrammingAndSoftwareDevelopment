@@ -102,3 +102,32 @@ the rules.
 - Create a new Java project in Eclipse. You should have three classes: `Card`, `Deck` and `Baccrat`, which contains the `main` method that runs the game.
 
 - You'll upload your three classes to an assignment I'll create on Canvas.
+
+## Example Output
+
+```
+Welcome to Baccarat.
+1. Player
+2. Banker
+Enter 1 or 2 to select your bet: 1
+
+The Player hand is:
+JACK of DIAMONDS
+FIVE of HEARTS
+For a score of 5
+
+The Banker hand is:
+QUEEN of HEARTS
+QUEEN of DIAMONDS
+For a score of 0
+
+The Player draws another card:
+9 of SPADES
+The Player's score is now 4
+
+The Banker draws another card:
+8 of HEARTS
+The Banker's score is now 8
+
+The Banker's 8 beats the Player's 4
+```
