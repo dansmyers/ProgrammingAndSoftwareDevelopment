@@ -73,7 +73,7 @@ Let's write our own simple Logo-style programming system.
 
 - Iterate through the lines of the file and execute the `Turtle` command described by each one.
 
-For example, your code might look like the following.
+Here's some starting code showing how you might begin implementing this.
 
 ```
 /**
