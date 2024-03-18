@@ -41,7 +41,7 @@ Take a look at the rosettes and spirals at the end of Chapter 3 for some tips on
 
 <br/>
 
-**Logo** was an old educational programming language that used simple commands to control a drawing turtle. For example, a Logo program might look like the following:
+**Logo** was an old educational programming language that used simple commands to control a drawing turtle. For example, a Logo-like program could look like the following:
 
 ```
 ; Move without drawing
