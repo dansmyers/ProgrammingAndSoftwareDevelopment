@@ -20,6 +20,14 @@ the lowest house edges available at any casino game without resorting to special
 
 In this project, you'll use object-oriented programming to write a baccrat game.
 
+## Details
+
+This project is optional. Completing it will raise your final course grade by one part of a letter: For example, B to B+, or B+ to A-.
+
+You'll use the `Card` and `Deck` classes we developed in Chapter 2 to model the deck of cards and implement shuffling and dealing. You'll be responsible for writing the main `Baccarat` class the implements the game logic. See the rules and suggested output below.
+
+Most of the complexity in this project is in calculating the scores for the hands and managing the tableau of drawing rules. Take a look at the Hi-Lo game in Chapter 2 for some relevant examples and also the end-of-chapter questions. There's some starter code for a `Blackjack` game that may be helpful, but you're ultimately responsible for writing the entire `Baccarat` program.
+
 ## Rules
 
 Almost all baccarat games available at real casinos are "punto banco" baccarat, which requires no strategic decisions on the part of the player. James Bond's preferred 
