@@ -35,23 +35,88 @@ Take a look at the rosettes and spirals at the end of Chapter 3 for some tips on
 
 ## Program
 
+<img src="https://cdn-blog.adafruit.com/uploads/2021/09/Untitled-114.png" width="400px" />
+
+*AdaFruit: [The History of the Logo Language](https://blog.adafruit.com/2021/09/21/the-history-of-the-logo-language-an-updated-post-vintagecomputing-programming-history/)
+
+<br/>
+
 **Logo** was an old educational programming language that used simple commands to control a drawing turtle. For example, a Logo program might look like the following:
 
 ```
+; Move without drawing
 penup
 move 25
 pendown
 
+; Turn to an angle
+turnleft 45
+
+; Draw a rectangle
 move 50
-turnleft
+turnleft 90
 move 100
-turnleft
+turnleft 90
 move 50
-turnleft
+turnleft 90
 move 100
-turnleft
+turnleft 90
 ```
 
 Let's write our own simple Logo-style programming system.
 
-Write a new class called `TurtleDriver` with a `main`.
+- Write a new class called `TurtleDriver` with a `main`
+
+- At the start of `main`, initialize a new `Turtle`
+
+- Open an input file named `example.tl` with a `Scanner`
+
+- Iterate through the lines of the file and execute the `Turtle` command described by each one.
+
+For example, your code might look like the following.
+
+```
+/**
+ * Main method of TurtleDriver
+ */
+public static void main(String[] args) {
+
+  // New Turtle
+  Turtle t = new Turtle();
+
+  //*** TODO: Add code to create a Scanner and open the example file ***//
+
+  // Loop through the file's lines
+  while (input.hasNext()) {
+    // Read the next line
+    String line = input.next();
+
+    //*** TODO: Skip lines that start with a semicolon ***//
+
+    // Split the line into the command and any additional arguments
+    String[] parts = line.split();
+    String command = parts[0];
+
+    // Move command    
+    if (command.equalsIgnoreCase("move")) {
+      // Move distance is the second part of the command
+      int distance = Integer.parseInt(parts[1]);
+
+      // Call the turtle method
+      t.move(distance);
+    }
+
+    //*** TODO: Add cases for other commands ***//
+  }
+}
+```
+
+You should support the following basic commands
+- `move DISTANCE`, where `DISTANCE` is the number of pixels to move forward
+- `turnleft ANGLE`, where `ANGLE` is the turn angle in degrees
+- `turnright ANGLE`
+- `penup`
+- `pendown`
+- Lines beginning with semicolons are comments
+
+Test your program on the given example file, then write your own `.tl` file that draws a different image.
