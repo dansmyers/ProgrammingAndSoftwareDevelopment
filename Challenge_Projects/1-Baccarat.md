@@ -1,4 +1,4 @@
-# Baccarat
+# Challenge Project: Baccarat
 
 <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyOGRok9ziCM/v1/1000x-1.jpg" width="50%" />
 
