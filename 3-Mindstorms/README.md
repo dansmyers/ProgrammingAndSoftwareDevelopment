@@ -139,6 +139,71 @@ You should support the following basic commands
 
 Test your program on the given example file, then write your own `.tl` file that draws a different image.
 
+### Starter Code
+
+Use the following example to help you get started. It includes some additional lines to create a `JFrame` so that you can visualize the result of the program in the input file.
+
+```
+/**
+ * Read from a file and use the file to control Turtle 
+ */
+
+import java.util.Scanner;
+import javax.swing.JFrame;
+import java.io.File;
+import java.io.FileNotFoundException;
+
+public class TurtleDriver {
+
+  public static void main(String[] args) {
+
+    // Turtle object
+    Turtle t = new Turtle();
+    
+    // JFrame setup stuff
+    JFrame frame = new JFrame();
+    frame.add(t);
+    frame.pack();
+    
+    // Create a Scanner to read from an example file
+    //
+    // Create the example.tl file by going to File --> New --> File
+    //
+    // Make sure that you put it inside the project but NOT inside the
+    // src directory with the .java source code
+    
+    Scanner input = null;
+    try {
+      input = new Scanner(new File("example.tl"));
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    }
+        
+    while (input.hasNext()) {
+      String line = input.nextLine();
+      System.out.println(line);
+      
+      // Add some code to check what command is given on the line
+      // and then call the appropriate Turtle method
+      if (line.startsWith("move")) {
+        // Extract the second part of the line to get the distance to move
+        String[] fields = line.split(" ");
+        double distance = Double.parseDouble(fields[1]);
+        
+        // Then call the Turtle's move method
+        t.move(distance);
+      }
+      
+      //*** Add move cases to deal with the other commands ***//
+    }
+    
+    // Make the JFrame visible after the Turtle commands finish
+    frame.setVisible(true);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  }
+}
+```
+
 ## Tips
 
 - **Start early**. Don't wait until the last minute!
