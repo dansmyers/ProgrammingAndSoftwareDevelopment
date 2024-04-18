@@ -1,6 +1,6 @@
 # The Adventure of Links
 
-<img src="https://upload.wikimedia.org/wikipedia/en/4/44/I_am_Error.png" width="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/en/4/44/I_am_Error.png" width="400px" />
 
 ## Due
 
