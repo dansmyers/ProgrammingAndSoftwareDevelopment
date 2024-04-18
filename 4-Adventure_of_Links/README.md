@@ -4,7 +4,7 @@
 
 *Should have implemented automated testing*
 
-## Due
+## Due 5/3 (end of the last week of class, but I suggest finishing earlier than this)
 
 ## Overview
 
