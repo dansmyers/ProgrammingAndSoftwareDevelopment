@@ -51,6 +51,11 @@ Tests for this program are given in `LinkedListTest`. Run `LinkedListTest` and i
 
 ## Big-O
 
+<img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Big_o.jpg" width="300px" />
+
+*Believe in the power of early-2000s anime*
+
+
 
 
 
