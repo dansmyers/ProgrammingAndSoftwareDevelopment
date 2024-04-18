@@ -2,6 +2,8 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/4/44/I_am_Error.png" width="400px" />
 
+*Should have implemented automated testing*
+
 ## Due
 
 ## Overview
