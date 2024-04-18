@@ -56,6 +56,14 @@ Tests for this program are given in `LinkedListTest`. Run `LinkedListTest` and i
 *Believe in the power of early-2000s anime*
 
 
+Answer the following Big-O related questions. Type or write your answers in a file and submit it in the same zip file as your code.
+
+
+1. Use the *formal definition* of Big-O notation to show that *f*(*a*) = *a*<sup>4</sup> + 5*a*<sup>3</sup> is *O*(*a*<sup>4</sup>)
+
+2. Show that *f*(*n*) = log (*n*!) is *O*(*n* log *n*). Tip: think about the definition of the factorial function and upper-bound every term. You don't have to use the formal definition on this one.
+
+3. Suppose that *f*(*n*) is *O*(*g*(*n*)) for some function *g*. Use the formal definition of Big-O notation to show that  *h* * f*(*n*), where *h* is a constant must also be *O*(*g*(*n*)). Tip: start by writing down the formal definition of *O*(*g*(*n*)); what changes if you multiply by a constant *h*?
 
 
 
