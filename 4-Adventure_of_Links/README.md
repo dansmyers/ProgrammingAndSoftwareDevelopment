@@ -20,7 +20,29 @@ Submit all of your files in one zip to the assignment I'll create on Canvas.
 
 ## Links
 
-Complete the given `LinkedList` class by adding the following methods:
+Complete the given `LinkedList` class by implementing the following methods:
+
+- `void push(T new)`: add the given integer to the front of the list
+
+- `void append(T new)`: append the given integer to the end of the list
+
+- `void insert(int index, T new)`: insert the given integer at position index
+
+- `void set(int index, T new)`: set the node at position index to have value new
+
+- `int get(int index)`: return the value stored at the node at position `index`
+
+- `T pop()`: remove the first node and return its value
+
+- `int remove(int index)`: remove the node stored at position `index` and return its value
+
+- `void reverse()`: reverse the order of the list – do not create a new list!
+
+- `String toString()`: return a `String` representing the values in the list
+
+- `LinkedList<T> copy()`: return a **new** `LinkedList` that is a copy of this one
+
+- `boolean equals(LinkedList<T> list)`: return `true` if the input list has the same values in the same order as this list; otherwise return `false`
 
 
 Tests for this program are given in `LinkedListTest`. Run `LinkedListTest` and it will automatically create an instance of your `LinkedList`, call its methods, and check the results to verify that your code works as expected. **You must pass the tests to get full credit**.
