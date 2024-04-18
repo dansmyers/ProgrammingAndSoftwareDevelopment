@@ -20,17 +20,13 @@ Submit all of your files in one zip to the assignment I'll create on Canvas.
 
 ## Links
 
-Complete the given `LinkedList` class by implementing the following methods:
-
-- `void push(T new)`: add the given integer to the front of the list
+Complete the given `LinkedList` class by implementing the following methods. It already includes the example methods we wrote in class to `push` to the front and `get` the item at a partiular position.
 
 - `void append(T new)`: append the given integer to the end of the list
 
 - `void insert(int index, T new)`: insert the given integer at position index
 
 - `void set(int index, T new)`: set the node at position index to have value new
-
-- `int get(int index)`: return the value stored at the node at position `index`
 
 - `T pop()`: remove the first node and return its value
 
@@ -45,9 +41,10 @@ Complete the given `LinkedList` class by implementing the following methods:
 - `boolean equals(LinkedList<T> list)`: return `true` if the input list has the same values in the same order as this list; otherwise return `false`
 
 
-Tests for this program are given in `LinkedListTest`. Run `LinkedListTest` and it will automatically create an instance of your `LinkedList`, call its methods, and check the results to verify that your code works as expected. **You must pass the tests to get full credit**.
+Tests for this program are given in `LinkedListTest`. Run `LinkedListTest` and it will automatically create an instance of your `LinkedList`, call its methods, and check the results to verify that your code works as expected. **You must pass the tests to get full credit**. Tips:
 
 - Don't modify `LinkedListTest`!
+- Throw an `ArrayIndexOutofBoundsException` if the user passes an index that's out of range
 - Start by implementing the first method, testing it until you pass, then move on to the second. You'll fail the tests for methods that you haven't implemented yet, but that's not a problem.
 - Look at the relevant sections in the book for tips on implementing insertion, removal, and reversal.
 
