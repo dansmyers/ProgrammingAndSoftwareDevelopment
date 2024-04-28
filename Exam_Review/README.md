@@ -17,7 +17,7 @@ There will be some Java coding questions, but no specific questions on OOP or ot
 
 ## Searching
 
-Be prepared to write *correct* implementations *in Java* for the recursive and iterative versions of binary search.
+Be prepared to write *correct* implementations *in Java* for the recursive and iterative versions of binary search. Be able to write variations on binary search where the input is something other than an `int[]`, for example, a `String[]` or an `ArrayList`.
 
 You should know the argument for the complexity of binary search, but there won't be any questions on the proof of correctness using a loop invariant.
 
