@@ -19,19 +19,25 @@ There will be some Java coding questions, but no specific questions on OOP or ot
 
 Be prepared to write *correct* implementations *in Java* for the recursive and iterative versions of binary search.
 
-You should know the basic argument for the complexity of binary search, but there won't be any questions on the proof of correctness using a loop invariant.
+You should know the argument for the complexity of binary search, but there won't be any questions on the proof of correctness using a loop invariant.
 
 
 ## Big-O notation
 
-Know the formal definition of Big-O notation and how to use the definition to show that a polynomial function has a certain complexity. Know how to analyze code fragments.
+Be able to give the complexity of a mathematical function. Make sure you understand how to deal with functions that include log terms, square roots, trig functions or other non-polynomial elements. Always think about the scaling behavior of each term in the function: How does the term grow as *n* gets larger and larger?
+
+Be able to order and group functions based on their complexities.
+
+Know the formal definition of Big-O notation and how to use the definition to show that a polynomial function has a certain complexity. Know how to analyze code fragments and give their complexities. Make sure to read any code fragment carefully: Just because it has two `for` loops, for example, doesn't mean that it's automatically quadratic.
 
 There won't be any questions on Big-Omega or Big-Theta notation (but I would like you to be familiar with them).
 
 Suggested studying:
 
 - Relevant sections of Chapter 5 and their examples
-- Chapter 5 questions 6-10, 14, 24, 28 
+- Chapter 5 questions 6-10, 14, 24, 28
+
+Be aware of the list of standard complexities given at the end of Chapter 6 and be able to give an example of problems that belong to each class.
 
 
 ## Lists
@@ -50,12 +56,13 @@ Be able to implement methods that iterate through a linked list. For example,
 - Inserting a new node at a given position
 - Removing the node at a given position
 - Inserting at the tail when there is no tail pointer
+- Methods from Assignment 4
 
 I won't ask you to reverse a list: that question is frightfully jejune.
 
 
 ## Recursion
 
-Be able to implement a recursive function as a Java method given its description. See Chapter 8 questions 13-16.
+Be able to implement a recursive function as a Java method given its description. See Chapter 8 questions 13-16 and the questions on Assignment 4.
 
 Be able to use induction to prove that a given *T*(*n*)  satisfies a recurrence relation. I will give you the function; you won't have to guess it from cases. See Chapter 8 questions 17-19.
