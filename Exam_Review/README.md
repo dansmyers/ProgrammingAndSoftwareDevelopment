@@ -1,6 +1,6 @@
 # Final Exam Review
 
-<img src="https://imgs.xkcd.com/comics/final_exam_2x.png" width="400px" />
+<img src="https://imgs.xkcd.com/comics/final_exam_2x.png" width="300px" />
 
 ## Topics
 
